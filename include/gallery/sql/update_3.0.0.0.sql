@@ -1,0 +1,1 @@
+UPDATE modules_installed SET Version="3.0.0.1" WHERE Module="gallery";

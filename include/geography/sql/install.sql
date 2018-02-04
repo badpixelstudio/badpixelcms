@@ -1,0 +1,33 @@
+CREATE TABLE IF NOT EXISTS `aux_states` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `IDFather` bigint(20) DEFAULT '1',
+  `Name` char(30) DEFAULT NULL,
+  PRIMARY KEY (`ID`),
+  KEY `IDFather` (`IDFather`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+CREATE TABLE IF NOT EXISTS `aux_countries` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `Name` varchar(40) DEFAULT NULL,
+  `Code` varchar(4) DEFAULT NULL,
+  PRIMARY KEY (`ID`),
+  KEY `Code` (`Code`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+CREATE TABLE IF NOT EXISTS `aux_cities` (
+  `ID` bigint(20) NOT NULL AUTO_INCREMENT,
+  `IDFather` int(11) DEFAULT NULL,
+  `Name` varchar(100) DEFAULT NULL,
+  `CP` varchar(5) DEFAULT NULL,
+  PRIMARY KEY (`ID`),
+  KEY `IDFather` (`IDFather`),
+  KEY `CP` (`CP`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=413 ;
+
+CREATE TABLE IF NOT EXISTS `aux_zones` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `IDFather` int(11) DEFAULT NULL,
+  `Name` varchar(40) NOT NULL,
+  PRIMARY KEY (`ID`),
+  KEY `IDFather` (`IDFather`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;

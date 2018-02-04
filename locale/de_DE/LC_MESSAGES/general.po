@@ -1,0 +1,807 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MarFinance\n"
+"POT-Creation-Date: 2017-02-22 18:39+0100\n"
+"PO-Revision-Date: 2017-02-23 18:54+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: D:/xampp/htdocs/lowwebs/marfinance\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: templates/gestion/assets/js/16.moment.min.js:6
+msgid "year"
+msgstr "Jahr"
+
+#: include/backup/backup.master.php:62
+msgid "Copia de seguridad"
+msgstr "Sicherungskopie"
+
+#: include/backup/backup.master.php:74
+msgid "Se ha creado la copia de seguridad"
+msgstr "Es wurde Backup erstellt"
+
+#: include/contact/dispatcher.php:16 templates/ptheme/contact.tpl.php:11
+#: templates/ptheme/contact.tpl.php:14 templates/ptheme/contact.tpl.php:28
+#: templates/ptheme/login.tpl.php:11
+msgid "Contactar"
+msgstr "Kontakt"
+
+#: include/contact/dispatcher.php:17
+msgid "Contactar con"
+msgstr "Kontakt"
+
+#: include/core/core.master.php:251
+msgid "Error al acceder al contenido restringido."
+msgstr "Fehler eingeschränkten Zugriff auf Inhalte."
+
+#: include/core/core.master.php:352 include/core/core.master.php:354
+msgid "Idioma no disponible"
+msgstr "Sprache nicht verfügbar"
+
+#: include/core/core.master.php:399 include/core/core.master.php:401
+msgid "Se ha guardado la traducción"
+msgstr "Die Übersetzung wird gespeichert"
+
+#: include/core/locale.master.php:61
+msgid "No hay plantilla .PO básica de donde extraer los textos"
+msgstr "Keine Grund .PO Vorlage zu extrahieren den Text"
+
+#: include/core/modules.master.php:48
+msgid ""
+"No se ha podido conectar con el servidor de actualizaciones. Revise la "
+"configuración"
+msgstr ""
+"Konnte nicht mit dem Update-Server verbinden. Überprüfen Sie die "
+"Einstellungen"
+
+#: include/core/modules.master.php:78
+msgid "No instalado"
+msgstr "Nicht installiert"
+
+#: include/core/modules.master.php:80
+msgid "Instalado"
+msgstr "Installiert"
+
+#: include/core/modules.master.php:82
+msgid "actualizado"
+msgstr "Aktualisiert"
+
+#: include/core/modules.master.php:84
+msgid "actualizable"
+msgstr "Nachrüstbar"
+
+#: include/core/modules.master.php:165
+msgid "El modulo no existe o no está instalado"
+msgstr "Das Modul ist nicht vorhanden oder ist nicht installiert"
+
+#: include/core/modules.master.php:180
+msgid "previo desinstalación"
+msgstr "vorherige deinstallation"
+
+#: include/core/modules.master.php:206
+msgid "No se pudo desinstalar el módulo"
+msgstr "Konnte das Modul deinstallieren"
+
+#: include/core/modules.master.php:207 include/core/modules.master.php:208
+msgid "Se ha desinstalado el módulo"
+msgstr "Das Modul wird deinstalliert"
+
+#: include/core/modules.master.php:208
+msgid "y se eliminó del servidor"
+msgstr "und es wurde vom Server entfernt"
+
+#: include/core/modules.master.php:209
+msgid "Se creó una copia de seguridad de la base de datos con nombre"
+msgstr "eine Sicherung wurde auf den Namen der Datenbank erstellt"
+
+#: include/core/modules.master.php:240 include/core/modules.master.php:243
+msgid "No se puede actualizar"
+msgstr "Sie können nicht aktualisieren"
+
+#: include/core/modules.master.php:268
+msgid "No hay versión disponible para instalar o actualizar"
+msgstr "Keine Version zu installieren oder zu aktualisieren"
+
+#: include/core/modules.master.php:311
+msgid "Todos los módulos ya están actualizados"
+msgstr "Alle Module sind bereits aktualisiert"
+
+#: include/core/modules.master.php:371
+msgid ""
+"El paquete solicitado no existe o no dispones de permisos para descargarlo"
+msgstr ""
+"Das Paket angefordert existiert nicht oder haben keine Berechtigung zum "
+"Download"
+
+#: include/core/modules.master.php:402
+msgid "Instalar módulo"
+msgstr "Installieren Modul"
+
+#: include/core/modules.master.php:409
+msgid "Desinstalar el módulo"
+msgstr "Deinstallieren Sie das Modul"
+
+#: include/core/updater.master.php:30
+msgid "No se ha generado un script de actualización válido"
+msgstr "Kein Skript hat ein gültiges Update erzeugt"
+
+#: include/extras/comments.master.php:288
+msgid "Comentario recibido"
+msgstr "Erhaltene Kommentare"
+
+#: include/users/oauth.php:8 include/users/oauth.php:15
+#: include/users/oauth.php:22
+msgid "Conectar"
+msgstr "Verbinden"
+
+#: include/users/pm.class.php:104
+msgid "y otros"
+msgstr "und andere"
+
+#: include/users/pm.class.php:104
+msgid "más"
+msgstr "mehr"
+
+#: include/users/pm.class.php:114 include/users/pm.class.php:134
+#: include/users/pm.class.php:324 include/users/pm.class.php:334
+msgid "Acceso no autorizado"
+msgstr "Unbefugter Zugriff"
+
+#: include/users/pm.class.php:239
+msgid "Hola "
+msgstr "Hallo"
+
+#: include/users/pm.class.php:240
+msgid "Acabas de recibir un mensaje interno en"
+msgstr "Sie haben gerade eine interne Nachricht"
+
+#: include/users/pm.class.php:240
+msgid "de"
+msgstr "von"
+
+#: include/users/pm.class.php:240
+msgid "con el título"
+msgstr "mit dem Titel"
+
+#: include/users/pm.class.php:242
+msgid "Para leer el mensaje inicia sesión en la web y accede al servicio de"
+msgstr ""
+"Um die Nachricht zu lesen Melden Sie sich an das Internet und Zugriff auf "
+"den Dienst"
+
+#: include/users/pm.class.php:242
+msgid "Mensajería Interna"
+msgstr "Interne Messaging"
+
+#: include/users/pm.class.php:243
+msgid "Has recibido un nuevo mensaje interno"
+msgstr "Sie haben eine neue interne Nachricht empfangen"
+
+#: include/users/pm.class.php:311
+msgid "Se ha enviado el mensaje interno"
+msgstr "Es schickte die interne Meldung"
+
+#: include/users/pm.class.php:322 include/users/pm.class.php:332
+msgid "Se ha borrado el mensaje"
+msgstr "Er hat die Nachricht gelöscht"
+
+#: include/users/users.master.php:50 include/users/users.master.php:244
+#: include/users/users.master.php:334
+msgid "Hola"
+msgstr "Hallo"
+
+#: include/users/users.master.php:51
+msgid "Nos hemos dado cuenta de tu nuevo inicio de sesión en "
+msgstr "Wir haben Ihre neuen Login bemerkt"
+
+#: include/users/users.master.php:58
+msgid "Nuevo inicio de sesión en "
+msgstr "New Login"
+
+#: include/users/users.master.php:245
+msgid "Para crear una nueva contraseña en"
+msgstr "Um ein neues Passwort erstellen"
+
+#: include/users/users.master.php:245
+msgid "haga clic en el siguiente enlace:"
+msgstr "klicken Sie auf den folgenden Link:"
+
+#: include/users/users.master.php:247 include/users/users.master.php:338
+msgid "Si no puede hacer clic en el enlace, péguelo en su navegador web."
+msgstr ""
+"Wenn Sie nicht auf den Link klicken können, fügen Sie ihn in Ihren Web-"
+"Browser."
+
+#: include/users/users.master.php:248
+msgid ""
+"En el caso de no haber solicitado el cambio de contraseña, ignore este "
+"mensaje."
+msgstr ""
+"Falls Sie die Kennwortänderung nicht angefordert haben, ignorieren Sie diese "
+"Meldung."
+
+#: include/users/users.master.php:249
+msgid "Instrucciones para crear una nueva contraseña"
+msgstr "Anleitung zum Erstellen eines neuen Passworts"
+
+#: include/users/users.master.php:335
+msgid "Acaba de registrar una cuenta de usuario en"
+msgstr "Melden Sie sich einfach ein Benutzerkonto"
+
+#: include/users/users.master.php:335
+msgid "y es preciso que confirme su cuenta."
+msgstr "und wir brauchen Ihr Konto zu bestätigen."
+
+#: include/users/users.master.php:336
+msgid "Haga clic en el siguiente enlace para validar sus datos"
+msgstr "Klicken Sie auf den folgenden Link, um Ihre Daten zu validieren"
+
+#: include/users/users.master.php:339
+msgid ""
+"En caso de que no active su cuenta en los próximos 4 días sus datos serán "
+"eliminados del sistema."
+msgstr ""
+"Wenn Sie nicht über Ihr Konto in den nächsten vier Tagen Ihre Daten "
+"aktivieren, werden gelöscht."
+
+#: include/users/users.master.php:340
+msgid ""
+"Si no ha solicitado el ningún registro de cuenta de usuario simplemente "
+"ignore este mensaje."
+msgstr ""
+"Wenn Sie sich nicht für jeden Benutzerkonto Datensatz angewandt haben "
+"einfach diese Nachricht ignorieren."
+
+#: include/users/users.master.php:341
+msgid "Instrucciones para activar la cuenta de usuario"
+msgstr "Anleitung das Benutzerkonto zu aktivieren"
+
+#: lib/extras/image_process.tpl.php:10
+msgid "Procesando imagenes"
+msgstr "Verarbeiten von Bildern"
+
+#: lib/extras/image_process.tpl.php:20
+msgid "Procesando imágenes"
+msgstr "Verarbeiten von Bildern"
+
+#: lib/extras/image_process.tpl.php:23
+msgid "Iniciando el proceso de carga de imagenes. Por favor, espere..."
+msgstr "Starten des Prozesses der das Laden von Bildern. Bitte warten ..."
+
+#: panel-gestion/config.php:48
+msgid "El modulo no admite configuración"
+msgstr "Das Modul unterstützt keine Konfiguration"
+
+#: panel-gestion/config.php:55
+msgid "Configuración de módulos"
+msgstr "Modulkonfiguration"
+
+#: panel-gestion/config.php:60 templates/gestion/business_modules.tpl.php:30
+#: templates/gestion/mainmenu.tpl.php:32
+msgid "Configuración"
+msgstr "Konfiguration"
+
+#: panel-gestion/config.php:70
+msgid "Configuración del módulo actualizada correctamente"
+msgstr "Modulkonfiguration erfolgreich aktualisiert"
+
+#: panel-gestion/config.php:75
+msgid "Se han eliminado"
+msgstr "Sie wurden entfernt"
+
+#: panel-gestion/config.php:75
+msgid "configuraciones obsoletas"
+msgstr "veralteter Konfigurationen"
+
+#: panel-gestion/config.php:81 panel-gestion/config.php:83
+msgid "Configuración guardada correctamente"
+msgstr "Einstellungen erfolgreich gespeichert"
+
+#: templates/gestion/adapter.php:402 templates/gestion/adapter.php:417
+msgid "Deshabilitado"
+msgstr "untauglich"
+
+#: templates/gestion/adapter.php:407 templates/gestion/adapter.php:422
+msgid "Sin definir"
+msgstr "undefiniert"
+
+#: templates/gestion/business_modules.tpl.php:28
+#: templates/gestion/config_main.tpl.php:21
+#: templates/gestion/user_levels.tpl.php:20
+msgid "Módulo"
+msgstr "Modul"
+
+#: templates/gestion/business_modules.tpl.php:29
+msgid "Disponibilidad"
+msgstr "Verfügbarkeit"
+
+#: templates/gestion/business_modules.tpl.php:35
+msgid "Core (de su página independiente)"
+msgstr "Core (ihre eigene Seite)"
+
+#: templates/gestion/business_modules.tpl.php:37
+#: templates/gestion/business_modules.tpl.php:42
+msgid "Configurar módulo"
+msgstr "konfigurieren Modul"
+
+#: templates/gestion/business_modules.tpl.php:48
+#: templates/gestion/cats_list.tpl.php:29 templates/gestion/list.tpl.php:104
+#: templates/gestion/list_paged.tpl.php:135
+#: templates/gestion/movies_list.tpl.php:70
+#: templates/gestion/movies_list.tpl.php:139
+#: templates/gestion/mp_inbox.tpl.php:75 templates/gestion/mp_sent.tpl.php:66
+#: templates/gestion/nestable.tpl.php:23 templates/gestion/order.tpl.php:21
+#: templates/gestion/user_levels.tpl.php:38
+msgid "No hay datos que mostrar"
+msgstr "Keine Daten anzuzeigen"
+
+#: templates/gestion/catalog_orders_edit.tpl.php:9
+msgid "Cliente"
+msgstr "Kunde"
+
+#: templates/gestion/catalog_orders_edit.tpl.php:16
+msgid "NIF"
+msgstr "NIF"
+
+#: templates/gestion/catalog_orders_edit.tpl.php:23
+msgid "Detalles"
+msgstr "Details"
+
+#: templates/gestion/catalog_orders_edit.tpl.php:25
+msgid "Envío"
+msgstr "Versand"
+
+#: templates/gestion/catalog_orders_edit.tpl.php:26
+msgid "F. Pago"
+msgstr "Zahlung"
+
+#: templates/gestion/catalog_orders_edit.tpl.php:28
+msgid "Estado"
+msgstr "Zustand"
+
+#: templates/gestion/catalog_orders_edit.tpl.php:37
+msgid "Producto"
+msgstr "Produkt"
+
+#: templates/gestion/catalog_orders_edit.tpl.php:38
+msgid "Cantidad"
+msgstr "Menge"
+
+#: templates/gestion/catalog_orders_edit.tpl.php:39
+msgid "Precio"
+msgstr "Preis"
+
+#: templates/gestion/catalog_orders_edit.tpl.php:40
+msgid "Importe"
+msgstr "Betrag"
+
+#: templates/gestion/catalog_orders_edit.tpl.php:55
+msgid "Subtotal"
+msgstr "Zwischensumme"
+
+#: templates/gestion/catalog_orders_edit.tpl.php:60
+msgid "Descuento"
+msgstr "Rabatt"
+
+#: templates/gestion/catalog_orders_edit.tpl.php:66
+msgid "Base imponible"
+msgstr "Besteuert"
+
+#: templates/gestion/catalog_orders_edit.tpl.php:83
+msgid "Total"
+msgstr "Gesamt"
+
+#: templates/gestion/catalog_orders_edit.tpl.php:88
+msgid "Gastos de envío"
+msgstr "Versand"
+
+#: templates/gestion/catalog_orders_edit.tpl.php:93
+msgid "% Suplemento por Envío"
+msgstr "% Zuschlag Versand"
+
+#: templates/gestion/catalog_orders_edit.tpl.php:100
+msgid "Gastos de gestión"
+msgstr "Die Verwaltungskosten"
+
+#: templates/gestion/catalog_orders_edit.tpl.php:105
+msgid "% Suplemento Gastos de Gestión"
+msgstr "% Zuschlag Expense Management"
+
+#: templates/gestion/catalog_orders_edit.tpl.php:111
+msgid "TOTAL A PAGAR"
+msgstr "ZU ZAHLEN"
+
+#: templates/gestion/catalog_orders_edit.tpl.php:119
+msgid "Imprimir"
+msgstr "Drucken"
+
+#: templates/gestion/config_main.tpl.php:22
+msgid "Operaciones"
+msgstr "Geschäftstätigkeit"
+
+#: templates/gestion/config_main.tpl.php:27
+msgid "Core (Núcleo del sistema)"
+msgstr "Core (Core System)"
+
+#: templates/gestion/config_main.tpl.php:29
+#: templates/gestion/config_main.tpl.php:44
+#: templates/gestion/tickets_messages.tpl.php:42
+#: templates/gestion/tickets_messages.tpl.php:82
+msgid "Editar"
+msgstr "Bearbeiten"
+
+#: templates/gestion/config_main.tpl.php:30
+#: templates/gestion/config_main.tpl.php:45
+msgid "Recargar"
+msgstr "Nachladen"
+
+#: templates/gestion/config_main.tpl.php:31
+#: templates/gestion/config_main.tpl.php:46
+msgid "Eliminar conf. obsoleta"
+msgstr "Löschen Konf. veraltet"
+
+#: templates/gestion/extras_comments_latest.tpl.php:12
+msgid "Todos los comentarios"
+msgstr "Alle Kommentare"
+
+#: templates/gestion/header.tpl.php:11 templates/gestion/index.tpl.php:13
+#: templates/gestion/security_login.tpl.php:10
+#: templates/gestion/security_password_create.tpl.php:10
+#: templates/gestion/security_password_retrieve.tpl.php:10
+msgid "Panel de Gestión"
+msgstr "Management"
+
+#: templates/gestion/index.tpl.php:80
+msgid "Últimos eventos creados"
+msgstr "Aktuelle Ereignisse erstellt"
+
+#: templates/gestion/index.tpl.php:108
+msgid "Ir a la agenda"
+msgstr "Zum Zeitplan"
+
+#: templates/gestion/mainmenu.tpl.php:34
+msgid "Gestionar Módulos"
+msgstr "Module verwalten"
+
+#: templates/gestion/mainmenu.tpl.php:261
+msgid "Catálogo de productos"
+msgstr "Produktkatalog"
+
+#: templates/gestion/mainmenu.tpl.php:267
+msgid "Atributos"
+msgstr "Attribute"
+
+#: templates/gestion/movies_list.tpl.php:13
+msgid "Programación Actual"
+msgstr "Aktuelle Programmierung"
+
+#: templates/gestion/movies_list.tpl.php:82
+msgid "Próxima Programación"
+msgstr "Nächste Programmierung"
+
+#: templates/gestion/mp_compose.tpl.php:11
+#: templates/gestion/mp_inbox.tpl.php:11
+#: templates/gestion/mp_message.tpl.php:10 templates/gestion/mp_sent.tpl.php:11
+#: templates/gestion/mp_sent_message.tpl.php:10
+msgid "Redactar"
+msgstr "Schreiben"
+
+#: templates/gestion/mp_compose.tpl.php:12
+#: templates/gestion/mp_inbox.tpl.php:12 templates/gestion/mp_inbox.tpl.php:18
+#: templates/gestion/mp_message.tpl.php:11
+#: templates/gestion/mp_message.tpl.php:21 templates/gestion/mp_sent.tpl.php:12
+#: templates/gestion/mp_sent_message.tpl.php:11
+msgid "Bandeja de Entrada"
+msgstr "Posteingang"
+
+#: templates/gestion/mp_compose.tpl.php:13
+#: templates/gestion/mp_inbox.tpl.php:13
+#: templates/gestion/mp_message.tpl.php:12 templates/gestion/mp_sent.tpl.php:13
+#: templates/gestion/mp_sent.tpl.php:18
+#: templates/gestion/mp_sent_message.tpl.php:12
+#: templates/gestion/mp_sent_message.tpl.php:21
+msgid "Enviados"
+msgstr "Gesandten"
+
+#: templates/gestion/mp_compose.tpl.php:26
+msgid "Enviar mensaje"
+msgstr "Nachricht senden"
+
+#: templates/gestion/mp_message.tpl.php:17
+msgid "Leer mensaje recibido"
+msgstr "Lesen Nachricht empfangen"
+
+#: templates/gestion/mp_message.tpl.php:27
+msgid "el"
+msgstr "die"
+
+#: templates/gestion/mp_message.tpl.php:44
+msgid "Responder a este mensaje"
+msgstr "Auf diesen Beitrag antworten"
+
+#: templates/gestion/mp_sent_message.tpl.php:17
+msgid "Leer mensaje enviado"
+msgstr "Lesen Sie sentmessage"
+
+#: templates/gestion/security_login.tpl.php:32
+msgid "Iniciando sesión"
+msgstr "Protokollierung"
+
+#: templates/gestion/security_login.tpl.php:33
+#: templates/gestion/security_password_create.tpl.php:43
+#: templates/gestion/security_password_retrieve.tpl.php:43
+msgid "Por favor, espere..."
+msgstr "Bitte warten ..."
+
+#: templates/gestion/security_login.tpl.php:40
+#: templates/gestion/security_login.tpl.php:64
+#: templates/ptheme/login.tpl.php:14 templates/ptheme/login.tpl.php:27
+#: templates/ptheme/login.tpl.php:44
+msgid "Iniciar sesión"
+msgstr "Login"
+
+#: templates/gestion/security_login.tpl.php:47
+msgid "Usuario o Email"
+msgstr "Benutzername oder E-Mail"
+
+#: templates/gestion/security_login.tpl.php:54
+#: templates/ptheme/login.tpl.php:41
+msgid "Contraseña"
+msgstr "Kennwort"
+
+#: templates/gestion/security_login.tpl.php:62
+msgid "Recuerdame"
+msgstr "Erinnere dich an mich"
+
+#: templates/gestion/security_login.tpl.php:69
+msgid "O accede con tu perfil de"
+msgstr "Oder melden Sie sich mit Ihrem Profil"
+
+#: templates/gestion/security_login.tpl.php:90
+msgid "No recuerdas tu contraseña"
+msgstr "Kann mich nicht erinnern Ihr Passwort"
+
+#: templates/gestion/security_login.tpl.php:91
+msgid "Pulsa aquí para generar una nueva contraseña"
+msgstr "Klicken Sie hier, um ein neues Passwort generieren"
+
+#: templates/gestion/security_login.tpl.php:95
+msgid "Crear cuenta de usuario"
+msgstr "Benutzerkonto einrichten"
+
+#: templates/gestion/security_login.tpl.php:96
+msgid "Si aún no eres usuario pulsa aquí para crear una nueva cuenta"
+msgstr "Wenn Sie noch kein Benutzer sind hier, um ein neues Konto zu erstellen"
+
+#: templates/gestion/security_login.tpl.php:105
+#: templates/gestion/security_password_create.tpl.php:89
+#: templates/gestion/security_password_retrieve.tpl.php:74
+msgid "Versión"
+msgstr "Version"
+
+#: templates/gestion/security_password_create.tpl.php:34
+msgid "Se ha cambiado la contraseña"
+msgstr "Geändertes Passwort"
+
+#: templates/gestion/security_password_create.tpl.php:35
+msgid "Ya se puede iniciar sesión con la nueva contraseña"
+msgstr "Jetzt können Sie mit dem neuen Passwort einloggen"
+
+#: templates/gestion/security_password_create.tpl.php:36
+#: templates/gestion/security_password_retrieve.tpl.php:36
+msgid "En unos segundos será redirigido a la página de inicio de sesión"
+msgstr "In wenigen Sekunden werden Sie auf der Login-Seite umgeleitet werden"
+
+#: templates/gestion/security_password_create.tpl.php:38
+#: templates/gestion/security_password_retrieve.tpl.php:38
+#: templates/gestion/security_password_retrieve.tpl.php:63
+msgid "Volver"
+msgstr "Rückkehr"
+
+#: templates/gestion/security_password_create.tpl.php:42
+msgid "Cambiando contraseña"
+msgstr "Ändern des Kennworts"
+
+#: templates/gestion/security_password_create.tpl.php:50
+msgid "Generar contraseña"
+msgstr "Erzeugen Passwort"
+
+#: templates/gestion/security_password_create.tpl.php:57
+msgid "Usuario"
+msgstr "Benutzer"
+
+#: templates/gestion/security_password_create.tpl.php:66
+msgid "Nueva Contraseña"
+msgstr "Neues Passwort"
+
+#: templates/gestion/security_password_create.tpl.php:72
+msgid "Repetir Contraseña"
+msgstr "Passwort wiederholen"
+
+#: templates/gestion/security_password_create.tpl.php:76
+msgid "Cancelar"
+msgstr "Stornieren"
+
+#: templates/gestion/security_password_create.tpl.php:77
+msgid "Guardar"
+msgstr "Speichern"
+
+#: templates/gestion/security_password_retrieve.tpl.php:34
+msgid "Instrucciones enviadas"
+msgstr "Anweisungen gesendet"
+
+#: templates/gestion/security_password_retrieve.tpl.php:35
+msgid ""
+"Se ha enviado un email con las instrucciones necesarias para cambiar la "
+"contraseña"
+msgstr "Es schickte eine E-Mail mit Anweisungen, um das Passwort zu ändern"
+
+#: templates/gestion/security_password_retrieve.tpl.php:42
+msgid "Enviando instrucciones"
+msgstr "Senden Anweisungen"
+
+#: templates/gestion/security_password_retrieve.tpl.php:50
+msgid "Recuperar contraseña"
+msgstr "Passwort wiederherstellen"
+
+#: templates/gestion/security_password_retrieve.tpl.php:55
+msgid ""
+"Introduzca su email de usuario registrado para remitirle las instrucciones "
+"para restablecer su contraseña"
+msgstr ""
+"Geben Sie einfach Ihre E-Mail-Nutzer Sie Anweisungen zum Senden Sie Ihr "
+"Passwort zurücksetzen"
+
+#: templates/gestion/security_password_retrieve.tpl.php:64
+msgid "Enviar"
+msgstr "Senden"
+
+#: templates/gestion/tickets_messages.tpl.php:43
+#: templates/gestion/tickets_messages.tpl.php:83
+msgid "Borrar"
+msgstr "Löschen"
+
+#: templates/gestion/tickets_messages.tpl.php:67
+msgid "RE:"
+msgstr "RE:"
+
+#: templates/gestion/tickets_messages.tpl.php:97
+msgid "Responder"
+msgstr "Antwort"
+
+#: templates/gestion/topcontent.tpl.php:37
+msgid "Brecha de seguridad"
+msgstr "Sicherheitsverletzung"
+
+#: templates/gestion/topcontent.tpl.php:37
+msgid ""
+"La carpeta de instalación aún existe en el servidor, bórrela inmediatamente "
+"para evitar accesos no autorizados."
+msgstr ""
+"Der Installationsordner existiert immer noch auf dem Server, entfernen Sie "
+"es sofort unberechtigten Zugriff zu verhindern."
+
+#: templates/ptheme/404.tpl.php:11
+msgid "Error 404"
+msgstr "Fehler 404"
+
+#: templates/ptheme/404.tpl.php:24
+msgid "Lo sentimos, pero la página que buscas no existe"
+msgstr "Sorry, aber die Seite, die Sie suchen, existiert nicht"
+
+#: templates/ptheme/404.tpl.php:26
+msgid "Volver a la web"
+msgstr "Zurück zur Web"
+
+#: templates/ptheme/contact.tpl.php:13
+#: templates/ptheme/contents_show.tpl.php:13 templates/ptheme/login.tpl.php:13
+#: templates/ptheme/otherservices_list.tpl.php:13
+#: templates/ptheme/otherservices_show.tpl.php:13
+#: templates/ptheme/results.tpl.php:13
+#: templates/ptheme/services_list.tpl.php:13
+#: templates/ptheme/services_show.tpl.php:13
+#: templates/ptheme/singleblog_list.tpl.php:13
+#: templates/ptheme/singleblog_show.tpl.php:13
+#: templates/ptheme/singlepages_show.tpl.php:13
+msgid "Inicio"
+msgstr "Einleitung"
+
+#: templates/ptheme/contact.tpl.php:29 templates/ptheme/login.tpl.php:28
+msgid "Completa los campos marcados en rojo"
+msgstr "Füllen Sie die rot markierten Felder aus"
+
+#: templates/ptheme/contact.tpl.php:30
+msgid "Gracias por contactar con nosotros"
+msgstr "Vielen Dank für Ihre Kontaktaufnahme"
+
+#: templates/ptheme/contact.tpl.php:31
+msgid "Se ha producido un error interno. Inténtelo más tarde."
+msgstr "Es ist ein interner Fehler. Bitte versuchen Sie es später noch einmal."
+
+#: templates/ptheme/contact.tpl.php:35
+msgid "Tu nombre"
+msgstr "Ihren Namen"
+
+#: templates/ptheme/contact.tpl.php:38
+msgid "Tu email"
+msgstr "Ihre E-Mail"
+
+#: templates/ptheme/contact.tpl.php:42
+msgid "Tu teléfono"
+msgstr "Ihr Telefon"
+
+#: templates/ptheme/contact.tpl.php:45
+msgid "Asunto"
+msgstr "Unternehmen"
+
+#: templates/ptheme/contact.tpl.php:48
+msgid "Tu mensaje"
+msgstr "Ihre Nachricht"
+
+#: templates/ptheme/contact.tpl.php:51
+msgid "Enviar ahora"
+msgstr "Jetzt senden"
+
+#: templates/ptheme/index.tpl.php:17 templates/ptheme/index.tpl.php:63
+msgid "Ver más"
+msgstr "Mehr sehen"
+
+#: templates/ptheme/login.tpl.php:29
+msgid "Para ver este apartado es necesario identificarse."
+msgstr "Um zu sehen, muss dieser Abschnitt identifiziert werden."
+
+#: templates/ptheme/login.tpl.php:30
+msgid ""
+"Si no dispones de cuenta, solicítala a través del formulario de contacto"
+msgstr "Wenn Sie noch kein Konto, fordern über das Kontaktformular"
+
+#: templates/ptheme/login.tpl.php:37
+msgid "Usuario o email"
+msgstr "Benutzer oder E-Mail"
+
+#: templates/ptheme/menu.tpl.php:47
+msgid "Buscar"
+msgstr "Suche"
+
+#: templates/ptheme/otherservices_list.tpl.php:11
+#: templates/ptheme/services_list.tpl.php:11
+#: templates/ptheme/services_list.tpl.php:14
+#: templates/ptheme/services_show.tpl.php:14
+msgid "Inversiones"
+msgstr "Investitionen"
+
+#: templates/ptheme/otherservices_list.tpl.php:14
+#: templates/ptheme/otherservices_show.tpl.php:14
+msgid "Inmuebles"
+msgstr "Gut"
+
+#: templates/ptheme/otherservices_list.tpl.php:37
+#: templates/ptheme/results.tpl.php:32
+#: templates/ptheme/services_list.tpl.php:37
+#: templates/ptheme/singleblog_list.tpl.php:41
+msgid "Leer más"
+msgstr "Mehr lesen"
+
+#: templates/ptheme/otherservices_list.tpl.php:46
+#: templates/ptheme/results.tpl.php:39
+#: templates/ptheme/services_list.tpl.php:46
+#: templates/ptheme/singleblog_list.tpl.php:46
+msgid "Todavía no se ha publicado nada aquí"
+msgstr "Dennoch hat es hier nichts veröffentlicht"
+
+#: templates/ptheme/results.tpl.php:11 templates/ptheme/results.tpl.php:14
+msgid "Resultados de la búsqueda"
+msgstr "Suchergebnisse"
+
+#: templates/ptheme/singleblog_list.tpl.php:11
+#: templates/ptheme/singleblog_list.tpl.php:14
+#: templates/ptheme/singleblog_show.tpl.php:14
+msgid "Blog"
+msgstr "Blog"

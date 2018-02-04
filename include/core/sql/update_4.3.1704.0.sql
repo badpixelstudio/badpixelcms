@@ -1,0 +1,1 @@
+UPDATE modules_installed SET Version="4.3.1706.0" WHERE Module="core";

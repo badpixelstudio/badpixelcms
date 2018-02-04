@@ -1,0 +1,18 @@
+OBTENER CODE: 
+- Ejecutar get_accesstoken e iniciar sesión, la url de vuelta mostrará el ACCESS_TOKEN
+
+EXTENDER LA VIDA DEL ACCESS_TOKEN: 
+
+- Ejecutar https://graph.facebook.com/oauth/access_token?client_id=[API_ID]&client_secret=[API_SECRET]&grant_type=fb_exchange_token&fb_exchange_token=[TOKEN]
+- Coger el Token que devuelve, que tiene validez de 60 días (TOKEN60)
+
+OBTENER LAS PÁGINAS A ADMINISTRAR:
+
+- Ejecutar https://graph.facebook.com/me/accounts?access_token=[TOKEN60]
+- Ver con estilos (token temporal): https://developers.facebook.com/tools/access_token/
+- Coger el User Token de la página que se quiera administrar.
+
+
+HERRAMIENTA DEBUG DE FACEBOOK:
+
+-Ir a https://developers.facebook.com/tools/debug

@@ -1,0 +1,55 @@
+SetEnv PHP_VER 5
+<IfModule pagespeed_module>
+	#ModPagespeed off
+	#ModPagespeedDisallow */public/*
+	ModPagespeedDisallow */basemails/*
+	ModPagespeedDisallow */widgets/*
+</IfModule>
+
+AddType font/ttf .ttf
+AddType font/otf .otf
+AddType application/x-woff .woff
+AddType image/svg+xml .svg
+AddType application/vnd.ms-fontobject .eotAddType font/ttf .ttf
+AddType font/otf .otf
+AddType application/x-woff .woff
+AddType image/svg+xml .svg
+AddType application/vnd.ms-fontobject .eot
+
+<IfModule mod_expires.c>
+	ExpiresActive on
+	ExpiresByType image/jpg "access plus 1 week"
+	ExpiresByType image/png "access plus 1 week"
+	ExpiresByType image/gif "access plus 1 week"
+	ExpiresByType image/jpeg "access plus 1 week"
+	ExpiresByType text/css "access plus 1 week"
+	ExpiresByType image/x-icon "access plus 1 month"
+	ExpiresByType application/pdf "access plus 1 month"
+	ExpiresByType audio/x-wav "access plus 1 month"
+	ExpiresByType audio/mpeg "access plus 1 month"
+	ExpiresByType video/mpeg "access plus 1 month"
+	ExpiresByType video/mp4 "access plus 1 month"
+	ExpiresByType video/quicktime "access plus 1 month"
+	ExpiresByType video/x-ms-wmv "access plus 1 month"
+	ExpiresByType application/x-shockwave-flash "access 1 month"
+	ExpiresByType text/javascript "access plus 1 week"
+	ExpiresByType application/x-javascript "access plus 1 week"
+	ExpiresByType application/javascript "access plus 1 week"
+	ExpiresByType image/ico "access plus 2 months"
+	ExpiresByType font/ttf "access plus 1 years"
+	ExpiresByType font/otf "access plus 1 years"
+	ExpiresByType application/vnd.ms-fontobject "access plus 1 years"
+	ExpiresByType application/x-woff "access plus 1 years"
+	ExpiresByType image/svg+xml "access plus 1 years"
+</IfModule>
+
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css text/javascript application/javascript
+</IfModule>
+
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{SCRIPT_FILENAME} !-d  
+RewriteCond %{SCRIPT_FILENAME} !-f  
+DirectoryIndex maintenance.html index.php
+RewriteRule ^(.*)$ ./index.php?action=ht&url=$1 [QSA]

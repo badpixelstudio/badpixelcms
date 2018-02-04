@@ -1,0 +1,9 @@
+/* here you can put your own css to customize and override the theme */
+.avatar-top { width: 29px; height: 29px;}
+.btn-group-table { display: inline-block; position: absolute; vertical-align: middle;}
+.btn-a { color: #fff !important;}
+.nav.pull-right > li > .dropdown-business, .nav > li > .dropdown-business.pull-right { 
+	max-height:80vh;
+	overflow-y: scroll;
+}
+.warning-updates { display: none;}
